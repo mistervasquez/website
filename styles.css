@@ -1,0 +1,11 @@
+
+#mybox {
+  position: absolute;
+  cursor: move;
+  background-color: black;
+  color: white;
+  text-align: center;
+  width: 200px;
+  height: 100px;
+}
+

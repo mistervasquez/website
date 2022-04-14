@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <script type = "text/javascript" src = "java.js"></script>
+</head>
+    
+<body>
+
+<h1>Follow Along!</h1>
+
+<p>Write the code that will make the little blue blox draggable</p>
+<p id="demo"></p>
+
+<script>
+function loadXMLDoc() {
+  var xhttp = new XMLHttpRequest();
+  xhttp.onreadystatechange = function() {
+    document.getElementById("demo").innerHTML =this.responseText;
+    console.log("Something")
+    
+  };
+  xhttp.open("GET", "https://esu2org-my.sharepoint.com/:t:/g/personal/manuel_vasquez_cbwildcats_org/Edew-gQBvGBOmhP35SxYkm8BnJCCpws_JJWJCuQTs8nanw?e=6tjQEC", true);
+  xhttp.send();
+}
+
+
+loadXMLDoc();
+
+</script>
+
+
+
+
+</body>
+</html>
